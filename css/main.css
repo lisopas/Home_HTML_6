@@ -1,0 +1,26 @@
+.gallery__header {
+    text-align: center;
+}
+
+.gallery__block_preview{
+    display: flex;
+    justify-content: center;
+}
+
+.gallery__item{
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px coral;
+}
+
+.grid_gallery_block{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50vh 50vh;
+    justify-items: center;
+    align-items: center;
+}
+
+.show_image_block__item{
+    width: 100%;
+}
